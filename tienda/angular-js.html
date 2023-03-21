@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto - Frontend Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/img/icons8-market-trends-16.ico" type="image/x-icon">
+    <link rel="preload" href="../assets/css/normalize.css" as="style">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="preload" href="../assets/css/style.css" as="style">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/" title="Frontend Store">
+            <img class="header__logo" src="../assets/img/logo.png" alt="Logo tienda">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a href="/" class="navegacion__enlace">Tienda</a>
+        <a href="nosotros" class="navegacion__enlace">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>AngularJS</h1>
+        <div class="camisa">
+            <img src="../assets/img/2.jpg" alt="Imagen del producto" class="camisa__imagen">
+            <div class="camisa__contenido">
+                <p>
+                    Duis accumsan elit non enim feugiat efficitur. Nunc eleifend in magna ut pulvinar. Nunc tincidunt ut orci at egestas. Proin vel sagittis orci. In nec mauris non est tristique posuere. Duis molestie elit in orci tristique lacinia. Fusce at nulla eu massa
+                    ullamcorper auctor in in quam. Ut consequat mauris id massa auctor tincidunt. Suspendisse id ultricies dui. Vivamus efficitur est dui, ut luctus tellus euismod id. Phasellus sapien ligula, tempus in bibendum at, fringilla nec quam.
+                </p>
+                <form action="javascript:void(0);" class="formulario" method="post">
+                    <select class="formulario__campo">
+                        <option value="" selected disabled>--- Seleccionar talla --</option>
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                    </select>
+
+                    <input type="number" class="formulario__campo" name="qty" id="qty" step="1" min="1" maxlength="1000" value="0">
+
+                    <input type="submit" class="formulario__submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
